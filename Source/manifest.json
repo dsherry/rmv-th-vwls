@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "RMV TH VWLS",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
-	"content_scripts": 
+	"description": "Rmvs ll th vwls frm yr txt. 'Y' dsn't cnt.",
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
