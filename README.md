@@ -1,7 +1,9 @@
 RMV TH VWLS
 =============
 
-Highly necessary chrome extension that removes all the vowels from a page.  Use at your own risk...  I mean, s t yr wn rsk.
+Highly necessary chrome extension that removes all the vowels from a page.
+
+Use at your own risk...  I mean, s t yr wn rsk.
 
 Installation
 ------------
