@@ -1,9 +1,9 @@
 RMV TH VWLS
 =============
 
-Chrome extension that removes all the vowels from a page!
+Chrome extension that removes all the vowels from a page. Use at your own risk... I mean, s t yr wn rsk.
 
-[Direct download of crx file](https://github.com/dsherry/rmv_th_vwls/blob/master/RMV_TH_VWLs.crx?raw=true)
+[Direct download of crx file](https://github.com/dsherry/rmv-th-vwls/blob/master/RMV-TH-VWLs.crx?raw=true)
 
 Installation
 ------------
