@@ -1,4 +1,27 @@
-walk(document.body);
+var print_msg = true;
+
+$(document).ready(function() {
+    rmv_th_vwls();
+    retrigger();
+});
+
+function rmv_th_vwls() {
+    chrome.storage.local.get('toggle', function(data) {
+        if (data.toggle === true) {
+            walk(document.body);
+            if (print_msg === true) {
+                console.log('The "rmv th vwls" extension is enabled. You won\'t see any vowels. njy!');
+                print_msg = false;
+            }
+        }
+    });
+}
+
+function retrigger() {
+    retrigger = setInterval(function() {
+        rmv_th_vwls();
+    }, 1000);
+}
 
 function walk(node)
 {
@@ -22,16 +45,15 @@ function walk(node)
 	break;
 
     case 3: // Text node
-	handleText(node);
+	replaceVowels(node);
 	break;
     }
 }
 
-function handleText(textNode)
+function replaceVowels(textNode)
 {
     var v = textNode.nodeValue;
+    // KLL KLL KLLLL
     v = v.replace(/[aeiou]/gi, "");
     textNode.nodeValue = v;
 }
-
-
