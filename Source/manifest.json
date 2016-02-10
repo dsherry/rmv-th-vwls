@@ -1,6 +1,7 @@
 {
     "manifest_version": 2,
     "name": "RMV TH VWLS",
+    "short_name": "RMV TH VWLS",
     "version": "1.0",
 
     "author": "Dylan Sherry",
