@@ -1,16 +1,17 @@
 RMV TH VWLS
 =============
 
-Highly necessary chrome extension that removes all the vowels from a page.
+A highly necessary chrome extension which removes all the vowels from a page.
 
-Use at your own risk...  I mean, s t yr wn rsk.
+Use at your own risk... I mean, s t yr wn rsk, nd gd lck!
+
+This extension can be enabled and disabled quickly by clicking the extension's icon. The extension is enabled when the icon is blue and disabled when the icon is grey with a red slash.
 
 Installation
 ------------
 
-[You can download the crx file here.](https://github.com/dsherry/rmv-th-vwls/blob/master/RMV-TH-VWLs.crx?raw=true)
+Options:
 
-In Chrome, select Window > Extensions or Tools > Extensions.  Drag RMV_TH_VWLs.crx onto that page.
-
-Gd lck.
+* Install the extension in the chrome web store.
+* Download the source and follow [Google's instructions on how to load the extension in developer mode](https://developer.chrome.com/extensions/getstarted).
 
